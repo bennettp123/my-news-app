@@ -1,11 +1,13 @@
 {
   "images" : [
     {
+      "compression-type" : "lossless",
       "filename" : "block_WestBlue.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "compression-type" : "lossless",
       "filename" : "block_WestBlue@2x.svg",
       "idiom" : "universal",
       "scale" : "2x"

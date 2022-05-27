@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TopArticlesView: View {
+struct TopArticlesViewController: UIViewController {
     var news: [URL]
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)

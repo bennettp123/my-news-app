@@ -10,8 +10,6 @@ import UIKit
 
 class ViewController: UIViewController, SFSafariViewControllerDelegate {
     
-    @IBOutlet weak var button: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -28,10 +26,6 @@ class ViewController: UIViewController, SFSafariViewControllerDelegate {
         present(vc, animated: true, completion: nil)
         vc.delegate = self
     }
-
-    @IBAction func openURL(_ sender: Any) {
-        
-    }
     
     func safariViewControllerDidFinish(
         _ controller: SFSafariViewController
@@ -39,4 +33,3 @@ class ViewController: UIViewController, SFSafariViewControllerDelegate {
         controller.dismiss(animated: true, completion: nil)
     }
 }
-
